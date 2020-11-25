@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>Game</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Memory Game</h1>
+    <header class="topbar">
+      <nav class="nav-btns stars">
+      </nav>
+      <nav class="nav-btns"><span class="moves">0</span> moves</nav>
+      <nav class="nav-btns"><span class="time-taken">0</span>s</nav>
+      <nav class="nav-btns" onclick="restart()">
+        <i class="fa fa-repeat"></i>
+      </nav>
+    </header>
+    <main>
+    </main>
+  </div>
+  <div class="modal">
+    <div class="result">
+      <h1>You Win!</h1>
+      <p>
+        <span class="result-stars"></span>
+      </p>
+      <p>
+        Time-taken
+        <span class="result-time-taken"></span>
+      </p>
+      <p>
+        Moves
+        <span class="result-moves"></span>
+      </p>
+    </div>
+  </div>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
